@@ -16,7 +16,7 @@ nav {
     box-shadow: 0px 1px #ccc;
     background-color: white;
     height: 70px;
-
+    
     /* Static Navbar */
     position: fixed;
     top: 0;
@@ -50,8 +50,6 @@ nav a {
 }
 
 .body-image-container {
-    /* display: block; */
-    background-color: grey;
     border-top: 1px solid #ccc;
     width: 100%;
     overflow: hidden;
@@ -74,8 +72,8 @@ nav a {
 .login-elem-container {
     display: block;
     padding: 3%;
+    padding-top: 10%;
     padding-bottom: 0px;
-    margin-top: 8%;
 }
 
 .login-elem-container h3 {
