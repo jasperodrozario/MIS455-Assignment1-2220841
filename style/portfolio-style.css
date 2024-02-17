@@ -43,68 +43,57 @@ nav a {
     width: 70px;
 }
 
-#nav-blog {
+#nav-portfolio {
     background-color: #cccccc86;
 }
 
-#nav-blog:hover {
+#nav-portfolio:hover {
     background-color: #ccc;
 }
 
-
 /* Content CSS */
-header {
-    width: 100%;
-    margin-top: 60px;
-    margin-bottom: 50px;
-}
-
 .container {
-    max-width: 1600px;
-    margin: 10px auto;
+    position: relative;
+    max-width: 800px;
+    margin: 50px auto;
+    margin-top: 120px;
     padding: 40px;
-    font-size: 14px;
-}
-
-
-.container p {
-    color: grey;
-}
-
-.container a {
-    color: rgba(34, 34, 34, 0.849);
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2 {
-    color: rgba(34, 34, 34, 0.849);
-    font-weight: 550;
+    text-align: center;
 }
 
-.content {
-    display: flex;
+.info {
+    margin-bottom: 20px;
+    font-size: 14px;
 }
 
-.content img {
-    width: 450px;
-    height: 100%;
-    object-fit: cover;
+.info p {
+    margin: 5px 0;
 }
 
-.content p {
-    width: 50%;
-    height: 50%;
-    padding-right: 100px;
+.info p strong {
+    font-weight: bold;
+}
+
+img {
+    width: 60%;
+}
+
+.img-container {
+    margin: 20px;
+    text-align: center;
 }
 
 footer {
-    background-color: black;
-    color: white;
-    padding: 5px;
-    margin-top: 80px;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%);
+    position: absolute;
     text-align: center;
-    font-size: 9px;
-}
-
-footer a {
-    color: red;
+    font-size: 11px;
 }

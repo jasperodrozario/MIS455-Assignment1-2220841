@@ -43,14 +43,13 @@ nav a {
     width: 70px;
 }
 
-#nav-blog {
+#nav-about {
     background-color: #cccccc86;
 }
 
-#nav-blog:hover {
+#nav-about:hover {
     background-color: #ccc;
 }
-
 
 /* Content CSS */
 header {
@@ -66,13 +65,12 @@ header {
     font-size: 14px;
 }
 
-
 .container p {
     color: grey;
 }
 
 .container a {
-    color: rgba(34, 34, 34, 0.849);
+    color: rgb(42, 127, 255);
 }
 
 h1, h2 {
@@ -80,19 +78,23 @@ h1, h2 {
     font-weight: 550;
 }
 
+li {
+    margin-top: 80px;
+}
+
 .content {
-    display: flex;
+    font-size: 14px;
 }
 
 .content img {
-    width: 450px;
+    width: 40%;
     height: 100%;
     object-fit: cover;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .content p {
-    width: 50%;
-    height: 50%;
     padding-right: 100px;
 }
 
