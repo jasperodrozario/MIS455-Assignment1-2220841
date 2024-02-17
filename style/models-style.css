@@ -44,13 +44,8 @@ nav a {
 }
 
 #nav-models {
-    background-color: #cccccc86;
+    border-bottom: 3px solid black;
 }
-
-#nav-models:hover {
-    background-color: #ccc;
-}
-
 /* Content CSS */
 a {
     color: rgba(34, 34, 34, 0.849);

@@ -44,11 +44,7 @@ nav a {
 }
 
 #nav-portfolio {
-    background-color: #cccccc86;
-}
-
-#nav-portfolio:hover {
-    background-color: #ccc;
+    border-bottom: 3px solid black;
 }
 
 /* Content CSS */

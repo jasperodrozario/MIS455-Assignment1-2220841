@@ -44,11 +44,7 @@ nav a {
 }
 
 #nav-login {
-    background-color: #cccccc86;
-}
-
-#nav-login:hover {
-    background-color: #ccc;
+    border-bottom: 3px solid black;
 }
 
 /* Content CSS */
